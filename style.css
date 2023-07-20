@@ -1,0 +1,56 @@
+body{
+    background: #005ca9;
+    color: #cceeff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Logo{
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+.divBusca{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+/*.faq{
+    color: #cceeff;
+    text-align: center;
+    vertical-align: top;
+}*/
+
+.faq-perguntas{
+    list-style: bold;
+    font-size: 35px;
+}
+
+.faq-perguntas:hover{
+    cursor: pointer;
+    font-size: 40px;
+    transition: linear 0.5s;
+    color: coral;
+}
+
+.faq-respostas{
+    list-style: italic;
+    font-size: 35px;
+    color: #cceeff;
+}
+
+.faq-respostas:hover{
+    cursor: pointer;
+    transition: linear 0.5s;
+    color: coral;
+}
